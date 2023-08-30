@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Homemade+Apple&family=Poppins:wght@200;400&family=Qwitcher+Grypen&family=Roboto:wght@100;300;400;500&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto', sans-serif; */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.activelink{
+    color: #000000;
+    font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: large;
+}
+
+.activelink::after{
+  content: ' >';
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.activelink::before{
+  content: ' < ';
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.otheLink{
+    color: #000000;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: large;
+}
+.otheLink:hover{
+   color: #313BAC;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: large;
+}
+
+.homeClasses{
+  margin-top: -4rem;
+}

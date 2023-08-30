@@ -1,0 +1,44 @@
+.footer{
+    border-top: 1px solid gray;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footerHeading{
+    font-size: 1rem;
+}
+
+.footerdata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerLinks{
+    color: black;
+    text-decoration: none;
+    width: 130px;
+    
+}
+
+.footerLinks:hover{
+    color:   #313BAC;;
+    text-decoration: 2px solid gray underline;
+    border-radius: .4rem;
+}
+
+.mainFooter_line{
+    text-align: center;
+    padding: 1rem;
+}
+
+.mainFooter_line span{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.coptRightLine{
+    color: gray;
+}

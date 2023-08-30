@@ -1,0 +1,124 @@
+.aboutBox {
+  height: 100vh;
+  padding-top: 9rem;
+}
+
+.leptopImage {
+  height: 100vh;
+}
+
+.leptopImage img {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: .6rem;
+}
+
+
+.aboutData{
+    padding: 0 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutData h1{
+    color: rgb(7, 105, 217);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aboutData h2{
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+.aboutData p{
+    font-size: 1.1rem;
+}
+
+.leptopImage{
+  position: relative;
+}
+
+.signature{
+  position: absolute;
+  color: rgb(4, 4, 57);
+font-family: 'Qwitcher Grypen', cursive;
+font-weight: bold;
+font-size: 2rem;
+rotate: -30deg;
+right: 0;
+}
+
+
+
+@media screen and (max-width: 991px) {
+   .leptopImage{
+    margin-top: 4rem;
+   }
+
+   .aboutData{
+    margin-top: 1rem;
+    padding: 0rem;
+   }
+
+   .aboutData h1{
+    font-size: .8rem;
+   }
+   .aboutData h2{
+    font-size: 1.2rem;
+   }
+   .aboutData p{
+    font-size: 1rem;
+   }
+}
+
+@media screen and (max-width: 772px) {
+  .aboutBox {
+  height: 100vh;
+  padding-top: 15rem;
+}
+
+
+.aboutData{
+    padding: 0;
+}
+
+.aboutData h1{
+    font-size: 1rem;
+}
+
+.aboutData h2{
+    margin-bottom: 1rem;
+}
+
+}
+
+
+@media screen and (max-width: 772px) {
+.aboutBox {
+  height: 100vh;
+  padding-top: 14rem;
+}
+
+.leptopImage {
+  height: 13vh;
+}
+
+.leptopImage img {
+ height: 245px;
+ width: 275px;
+}
+
+
+.aboutData{
+    padding: 11rem 0;
+}
+
+
+.signature{
+right: 251px;
+top:12rem;
+}
+
+
+}

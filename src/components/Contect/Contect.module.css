@@ -1,0 +1,93 @@
+.mailBox{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+
+.centerData{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.emailContainer{
+    background-color: #f2f7fb;
+}
+
+.mailBox .emailContainer{
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0;
+    min-width: 290px;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+.mailBox .emailContainer a{
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--gray-color);
+    font-size: .8rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.mailBox img {
+    height: 40px;
+    margin: 0 .7rem;
+    width: 40px;
+}
+
+.emailContainer:hover{
+    color: #fff;
+    background-color: #313BAC;
+}
+
+.formBox{
+    margin: 1rem 2rem;
+    width: 60%;
+}
+
+
+
+.inputText{
+    width: 80%;
+    margin: 12px 0 0 0 ;
+    padding: .4rem;
+    border-radius: .3rem;
+    background-color: #f2f7fb;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.inputFormBtn{
+    color: #fff;
+    background: #313BAC;
+    border: none;
+    border-radius: .3rem;
+    margin-top: 2rem;
+    padding: 4px;
+        box-shadow: 2px 2px 3px solid rgba(0, 0, 0, .4);
+}
+
+
+
+@media screen and (max-width: 767px) {
+ .inputText{
+    width: 100%;
+}
+}
+
+
+
+@media screen and (max-width: 532px) {
+ 
+
+
+}

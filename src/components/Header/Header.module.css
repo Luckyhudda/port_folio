@@ -1,0 +1,113 @@
+.header{
+    background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.headerBox{
+    height: 60px;
+    width: 100%;
+}
+
+/* .headerList{
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.logo{
+   font-family: 'Homemade Apple', cursive;
+   font-weight: bold;
+   font-size: 2rem;
+   margin-top: 21px;
+}
+
+.logo span{
+    color: crimson;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.links li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.headerBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleTheme{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background: rgb(67, 66, 66);
+    box-shadow: 2px 4px 4px solid gray;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menuBtn{
+    display: none;
+}
+
+
+@media screen and (max-width: 991px) {
+    .links{
+        display: none;
+    }
+    .menuBtn{
+        display: block;
+        margin-left: 12px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        border: #9a9898 1px solid;
+        padding: 0px 9px;
+        border-radius: .3rem;
+        background-color: rgb(236, 235, 235);
+    }
+}
+
+@media screen and (max-width: 432px){
+    .logo{
+   font-size: 1.4rem;
+   margin-top: 12px;
+}
+.hiddleData{
+    display: none;
+}
+
+.headerList{
+    display: flex;
+
+}
+
+.headerBtns{
+    margin-left: auto;
+}
+
+}
+@media screen and (max-width: 412px){
+  
+.headerBtns{
+    width: 50%;
+}
+
+}
